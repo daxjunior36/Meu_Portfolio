@@ -1,0 +1,70 @@
+#home {
+font-family: 'Inter', sans-serif;
+display: flex;
+align-items: center;
+gap: 14px;
+min-height: 100vh;
+padding-top: 90px;
+
+.home-info, .home-img {
+width: 50%;
+}
+
+.home-info {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  .nome {
+  font-size: 36px;  
+  text-transform: uppercase;  
+  color: var(--azul-cometa);
+  }
+
+  .links {
+    display: flex;
+    gap: 14px;
+    a {
+      padding: 5px 24px;
+      border: 1px solid purple;
+      border-radius: 4px;
+      color: var(--cinza-esverdeado);
+      text-decoration: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+
+      img {
+        width: 40px;
+        border-radius: 50%;
+
+      }
+    }
+  }
+}
+
+.home-img {
+  display: flex;
+  justify-content: center;
+  img {
+    width: 100%;
+    max-width: 350px;
+    animation: astronalta 6s alternate infinite ease-in-out;
+  }
+}
+
+}
+
+@keyframes astronalta {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+ 
+  100% {
+    transform: translateY(0px);
+  }
+}

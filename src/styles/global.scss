@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2? family= Inter:wght@500;600 & family= Orbitron:wght@400;500;600;900 & display=swap');
+:root {
+  --background: #182222;
+  --verde-esmerada: #1ac3bd;
+  --verde-musgo: #4f686a;
+  --verde-medio: #49a7a8;
+  --cinza-claro: #afafaf;
+  --cinza-medio: #727273;
+  --cinza-intemed: #848b95;
+  --cinza-esverdeado: #c6d2d2;
+  --azul-escuro: #0A192F;
+  --azul-claro: #63CFF0;
+  --azul-cometa: #63C5FB;
+  --azul-acinzetado: #116486;
+  --azul-esverdeado: #32556a;
+  --azul-claro2: #4b9eca;
+  --preto: #000000;
+  --branco: #f0eeee;
+  --laranja: #E86917;
+  --preto-fosco: #292929;
+  --preto-fosco2: #303030;
+  --background-principal: #121212;
+  --roxo: #4E347E;
+  --roxo-escuro: #24143d;
+
+
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+
+body {
+  background: var(--preto);
+  color: var(--branco);
+}
+
+main {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 200px;
+}
+
+.background {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../imgs/banner-bg.png");
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  margin-top: 90px;
+  
+}

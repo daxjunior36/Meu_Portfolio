@@ -1,0 +1,36 @@
+#skills {
+display: flex;
+flex-direction: column;
+gap: 20px;
+
+.card-skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+
+  .card-skill {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    align-items: center;
+    gap: 8px;
+    max-width: 100px;
+    width: 25%;
+    border-radius: 8px;
+    box-shadow: 0 0 4px black;
+    padding: 8px;
+    background: rgba( 144, 19, 254, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2px );
+    -webkit-backdrop-filter: blur( 2px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+    img {
+      width: 100%;
+    }
+  }
+}
+}
