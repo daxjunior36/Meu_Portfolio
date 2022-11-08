@@ -3,8 +3,43 @@ import "../styles/Home.scss";
 import astronalta from "../imgs/header-img.svg";
 import linkedin from "../imgs/linkedin.c.svg";
 import github from "../imgs/github.png";
+import { useEffect, useState } from "react";
+
+const text = 'Front-End Developer!'
 
  export default function Home() {
+  const [textToType, setToType] = useState('');
+  const typeText = () => {
+    text.split('').forEach((e, index) => {
+      setTimeout(() => {
+        setToType((prev) => prev + e);
+      }, 100 * index);
+    });
+  }
+  const deleteText = () => {
+    const textToDelete = textToType.split('');
+    setTimeout(() => {
+      textToDelete.forEach((_e, index) => {
+        setTimeout(() => {
+          textToDelete.splice(-1, 1);
+          setToType(textToDelete.join(''));
+        }, 100 * index);
+      });
+    }, 800)
+  }
+  useEffect(() => {
+    const typeOrDeleteText = () => {
+      if (textToType === '') {
+        typeText();
+      }
+      if (textToType === text) {
+        deleteText();
+      }
+    };
+    typeOrDeleteText();
+  });
+    
+ 
   return(
     <section id="home">
       <div className="home-info">
@@ -14,8 +49,8 @@ import github from "../imgs/github.png";
       <h2  className="nome">
         Domingos Alexandre 
       </h2>
-      <h3>
-        Front-End Developer.
+      <h3 id="profissao">
+      {textToType}
       </h3>
       <p>
       
