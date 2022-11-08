@@ -18,8 +18,8 @@ function App() {
      <main>
       <Home/>
       <Sobre/>
-      <Skills/>
       <Projetos/>
+      <Skills/>
       <Formulario/>
      </main>
      

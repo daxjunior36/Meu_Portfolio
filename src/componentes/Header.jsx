@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Header.scss";
-import logo from "../imgs/DAX-r.png";
+import logo from "../imgs/DAX.png";
 
 
  export default function Header() {
@@ -14,11 +14,11 @@ import logo from "../imgs/DAX-r.png";
         <a href="#sobre">
           Sobre
         </a>
-        <a href="#skills">
-          Skills
-        </a>
         <a href="#projetos">
           Projetos
+        </a>
+        <a href="#skills">
+          Skills
         </a>
         <a href="#form_section">
           Contato
