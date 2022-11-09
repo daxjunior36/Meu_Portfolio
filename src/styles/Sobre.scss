@@ -34,7 +34,12 @@
       &:hover{
         transform: rotate(0);
       }
-
     }
+  }
+  .texto-sobre {
+    h2 {
+      margin-bottom: 8px;
+    }
+    line-height: 24px;
   }
 }
