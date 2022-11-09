@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2? family= Inter:wght@500;600 & family= Orbitron:wght@400;500;600;900 & display=swap');
+@font-face {
+  font-family: 'Helvetica-Bold';
+  src: local('Helvetica-Bold'), url(../fonts/Helvetica-Bold.ttf) format('truetype');
+}
+
 :root {
   --background: #182222;
   --verde-esmerada: #1ac3bd;
@@ -38,12 +43,13 @@ html {
 }
 
 body {
+  font-family: Helvetica-Bold, sans-serif;
   background: var(--preto);
   color: var(--branco);
 }
 
 main {
-  padding: 20px;
+  padding: 20px 40px;
   display: flex;
   flex-direction: column;
   gap: 200px;

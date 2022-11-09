@@ -5,12 +5,14 @@ import linkedin from "../imgs/linkedin.c.svg";
 import github from "../imgs/github.png";
 import { useEffect, useState } from "react";
 
-const text = 'Front-End Developer!'
+const text = 'Front-End Developer'
+const text2 = 'SEJA BEM VINDO'
 
  export default function Home() {
   const [textToType, setToType] = useState('');
+  const [textoselecionado, setTextoselecionado] = useState(text2);
   const typeText = () => {
-    text.split('').forEach((e, index) => {
+    textoselecionado.split('').forEach((e, index) => {
       setTimeout(() => {
         setToType((prev) => prev + e);
       }, 100 * index);
@@ -23,8 +25,12 @@ const text = 'Front-End Developer!'
         setTimeout(() => {
           textToDelete.splice(-1, 1);
           setToType(textToDelete.join(''));
+          if(index === textToType.split('').length -1){
+            setTextoselecionado(textToType === text ? text2: text)
+          }
         }, 100 * index);
       });
+
     }, 800)
   }
   useEffect(() => {
@@ -32,11 +38,13 @@ const text = 'Front-End Developer!'
       if (textToType === '') {
         typeText();
       }
-      if (textToType === text) {
+      if (textToType === textoselecionado) {
         deleteText();
       }
     };
-    typeOrDeleteText();
+    if (textToType !== text) {
+      typeOrDeleteText();
+    }
   });
     
  
@@ -50,7 +58,7 @@ const text = 'Front-End Developer!'
         Domingos Alexandre 
       </h2>
       <h3 id="profissao">
-      {textToType}
+      {textToType} <span>|</span>
       </h3>
       <p>
       

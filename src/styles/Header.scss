@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px;
+  padding: 10px 40px 10px 30px;
   position: fixed;
   width: 100%;
   height: 90px;
@@ -13,10 +13,43 @@
   background-size: cover;
   background-position: center;
 
-img {
-  width: 100px;
-  margin: -40px 0;
-}
+  .logo-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    .logo {
+      border: 3px solid var(--azul-cometa);
+      border-radius: 50%;
+      padding: 8px;
+      width: 50px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .nome-profissao {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+
+      .nome {
+        color: var(--laranja);
+        font-weight: 500;
+      }
+      .profissao {
+        font-size: 12px;
+        color: var(--verde-medio);
+        text-align: justify;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        letter-spacing: 3.5px;
+      }
+    }
+  }
 
   .navbar{
     display: flex;

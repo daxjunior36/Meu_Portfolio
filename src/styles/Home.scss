@@ -1,5 +1,5 @@
 #home {
-font-family: 'Inter', sans-serif;
+font-family: 'Helvetica-Bold', sans-serif;
 display: flex;
 align-items: center;
 gap: 14px;
@@ -19,6 +19,12 @@ width: 50%;
   font-size: 36px;  
   text-transform: uppercase;  
   color: var(--azul-cometa);
+  }
+
+  #profissao {
+    span {
+      animation: pipe 0.5s infinite alternate;
+    }
   }
 
   .links {
@@ -66,5 +72,14 @@ width: 50%;
  
   100% {
     transform: translateY(0px);
+  }
+}
+
+@keyframes pipe {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }

@@ -1,12 +1,19 @@
 import React from "react";
 import "../styles/Header.scss";
-import logo from "../imgs/DAX.png";
 
 
  export default function Header() {
   return(
     <header className="header">
-      <img src={logo} alt="logo"/>
+     <div className="logo-container">
+      <div className="logo">
+        <span>DAX</span>
+      </div>
+        <div className="nome-profissao">
+          <span className="nome">Domingos Alexandre</span>
+          <p className="profissao"><span>WEB</span><span>DEVELOPER</span></p>
+        </div>
+     </div>
       <nav className="navbar">
         <a href="#home">
           Home
