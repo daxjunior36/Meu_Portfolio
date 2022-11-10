@@ -11,28 +11,36 @@ width: 50%;
 }
 
 .home-info {
+  font-family: 'Helvetica-Bold', sans-serif;
   display: flex;
   flex-direction: column;
   gap: 16px;
+  font-size:24px;
 
   .nome {
-  font-size: 36px;  
+  font-family: helvetica;
+  font-size: 24px;
+  gap:16px;
   text-transform: uppercase;  
   color: var(--azul-cometa);
   }
 
   #profissao {
+    font-family: helvetica;
+    font-size: 45px;
     span {
-      animation: pipe 0.5s infinite alternate;
+      animation: pipe 1.3s infinite alternate;
     }
   }
 
   .links {
     display: flex;
     gap: 14px;
-    a {
-      padding: 5px 24px;
-      border: 1px solid purple;
+
+       a {
+      padding: 0 12px ;
+      font-size: 16px;
+      border: 1.5px solid purple;
       border-radius: 4px;
       color: var(--cinza-esverdeado);
       text-decoration: none;
@@ -41,11 +49,18 @@ width: 50%;
       align-items: center;
       gap: 8px;
 
+      .curriculo {
+        width: 55px;
+        gap: 8px;
+        border-radius: 50%;
+      }
+
       img {
         width: 40px;
         border-radius: 50%;
-
+       
       }
+     
     }
   }
 }

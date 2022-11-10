@@ -3,10 +3,11 @@ import "../styles/Home.scss";
 import astronalta from "../imgs/header-img.svg";
 import linkedin from "../imgs/linkedin.c.svg";
 import github from "../imgs/github.png";
+import curriculo from "../imgs/curriculo.png";
 import { useEffect, useState } from "react";
 
 const text = 'Front-End Developer'
-const text2 = 'SEJA BEM VINDO'
+const text2 = 'Muito Prazer...'
 
  export default function Home() {
   const [textToType, setToType] = useState('');
@@ -52,10 +53,10 @@ const text2 = 'SEJA BEM VINDO'
     <section id="home">
       <div className="home-info">
       <h5>
-        Oi, meu nome é
+        
       </h5>
       <h2  className="nome">
-        Domingos Alexandre 
+        Olá, EU SOU Domingos Alexandre 
       </h2>
       <h3 id="profissao">
       {textToType} <span>|</span>
@@ -71,6 +72,10 @@ const text2 = 'SEJA BEM VINDO'
       <a href="https://github.com/daxjunior36">
         <img src={github} alt="github" />
         <span>GitHub</span> 
+      </a>
+      <a href="https://drive.google.com/file/d/1L4WQlSRNQmUdX-iY5QKkZW2X1rmWxHIt/view?usp=share_link">
+        <img className="curriculo" src={curriculo} alt="curriculo" />
+        <span>Currículo</span> 
       </a>
       </div>
       </div>
