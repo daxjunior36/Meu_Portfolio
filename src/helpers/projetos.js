@@ -13,22 +13,22 @@ const projetos = [
     src: Tunes,
     hrefDemo: "https://project-trybe-tunes.netlify.app/",
     hrefGit: "https://github.com/daxjunior36/trybetunes",
-    title: "Trybe-Tunes",
-    descricao: "Aplicação para busca de albums e músicas.",
+    title: "Trybe Tunes",
+    descricao: "Aplicação para busca de albuns e músicas.",
     
   },
   {
     src: ShoppingCart,
     hrefDemo: "https://shoppingcart-online.netlify.app/",
     hrefGit: "https://github.com/daxjunior36/shopping-cart",
-    title: "Shopping-Cart",
-    descricao: " Aplicativo de Carrinho de compras."
+    title: "Shopping  Cart",
+    descricao: " Aplicativo Carrinho de compras."
   },
   {
     src: Wallet,
     hrefDemo: "https://site-controle-financas.netlify.app/",
     hrefGit: "https://github.com/daxjunior36/trybewallet",
-    title: " Trybe-Wallet",
+    title: " Trybe  Wallet",
     descricao: "Carteira Digital."
     
   },
@@ -44,7 +44,7 @@ const projetos = [
     hrefDemo: "https://animes-js.netlify.app/",
     hrefGit: "https://github.com/daxjunior36/AnimaJS",
     title:"Anime em Parallax",
-    descricao: "Animação JavaScript usando Parallax."
+    descricao: "Animação em JavaScript usando Parallax."
   },
   {
     src: Parallax,
@@ -64,7 +64,7 @@ const projetos = [
     src: SiteVendas,
     hrefDemo: "https://glass-morphism-site-tenis.netlify.app/",
     hrefGit: "https://github.com/daxjunior36/Shop-Sneakers",
-    title:"Shop-Sneakers",
+    title:"Shop Sneakers",
     descricao: "Vendas de Tênis"
   }
 
