@@ -19,7 +19,9 @@
     gap: 8px;
 
     .dax {
-      color: #987ccb;
+      background-image: linear-gradient(-225deg, #FF057C 0%, #7C64D5 48%, #4CC3FF 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
     
     .logo {
@@ -42,13 +44,16 @@
       gap: 8px;
 
       .nome {
-        color: var(--cinza-esverdeado);
+        
+        background-image: linear-gradient(-225deg, #FF057C 0%, #7C64D5 48%, #4CC3FF 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
         font-size: 16PX;
         
       }
       .profissao {
         font-size: 12px;
-        color: #987ccb;
+        color: var();
         text-align: justify;
         width: 100%;
         display: flex;
