@@ -37,7 +37,7 @@ const projetos = [
     hrefDemo: "https://starwars-planets.netlify.app/",
     hrefGit:"https://github.com/daxjunior36/starwars",
     title:"Star Wars",
-    descricao: "Aplicativo para desenvolver uma lista com filtros de planetas do universo de Star Wars.",
+    descricao: " Lista com filtros de planetas do universo de Star Wars.",
   },
   {
     src: AnimeJSImg,

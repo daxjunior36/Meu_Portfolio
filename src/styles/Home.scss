@@ -67,8 +67,9 @@ width: 50%;
 
 .home-img {
   display: flex;
-  justify-content: center;
+  justify-content:right;
   img {
+    
     width: 100%;
     max-width: 350px;
     animation: astronalta 6s alternate infinite ease-in-out;

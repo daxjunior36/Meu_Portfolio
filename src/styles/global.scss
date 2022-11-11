@@ -45,11 +45,11 @@ html {
 body {
   font-family: Helvetica-Bold, sans-serif;
   background: var(--preto);
-  color: var(--branco);
+  color: var(--cinza-esverdeado);
 }
 
 main {
-  padding: 20px 40px;
+  padding: 20px 60px;
   display: flex;
   flex-direction: column;
   gap: 200px;
