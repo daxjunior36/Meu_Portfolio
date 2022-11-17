@@ -1,5 +1,5 @@
 #home {
-font-family: 'Helvetica-Bold', sans-serif;
+font-family: 'Kusanagi', sans-serif;
 display: flex;
 align-items: center;
 gap: 14px;
@@ -11,25 +11,33 @@ width: 50%;
 }
 
 .home-info {
-  font-family: 'Helvetica-Bold', sans-serif;
+  font-family: 'Kusanagi', sans-serif;
   display: flex;
   flex-direction: column;
   gap: 16px;
   font-size:24px;
+  
+  h5 {
+    word-spacing: 20px;
+  }
 
   .nome {
   background-image: linear-gradient(-225deg, #FF057C 0%, #7C64D5 48%, #4CC3FF 100%);
-  font-family: helvetica;
-  font-size: 24px;
+  font-family: Kusanagi;
+  font-size: 32px;
   gap:16px;
   text-transform: uppercase;  
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  word-spacing: 12px;
+  letter-spacing: 1px;
   }
 
   #profissao {
-    font-family: helvetica;
-    font-size: 45px;
+    font-family: Kusanagi;
+    font-size: 23.5px;
+    word-spacing: 15px;
+    letter-spacing: 1px;
     span {
       animation: pipe 1.3s infinite alternate;
     }
@@ -37,11 +45,11 @@ width: 50%;
 
   .links {
     display: flex;
-    gap: 14px;
+    gap: 10px;
 
        a {
-      padding: 0 12px ;
-      font-size: 16px;
+      padding: 0 14px ;
+      font-size: 14px;
       border: 1.5px solid purple;
       border-radius: 4px;
       color: var(--cinza-esverdeado);

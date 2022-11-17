@@ -11,7 +11,7 @@ import "../styles/Header.scss";
       </div>
         <div className="nome-profissao">
           <span className="nome">DOMINGOS ALEXANDRE</span>
-          <p className="profissao"><span>WEB </span><span> DEVELOPER</span></p>
+          <p className="profissao"><span>DESENVOLVEDOR</span><span>WEB</span></p>
         </div>
      </div>
       <nav className="navbar">

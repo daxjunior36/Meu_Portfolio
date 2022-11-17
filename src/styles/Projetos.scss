@@ -4,19 +4,20 @@ flex-direction: column;
 gap: 20px;
 
 
-
-
 h2 {
-  align-self: flex-start;
+  font-family: Kusanagi;
   color: var(--cinza-esverdeado);
-  align-self: flex-start;
+  align-self: center;
   margin-bottom: 30px;
-  width: 360px;
-  // max-width: 33%;
-  // min-width: 70%;
-  padding: 12px;
+  font-size: 18px;
+  width: 450px;
+  padding: 15px 10px ;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  word-spacing: 10px;
+  letter-spacing: 2.3px;
   color: var(--cinza-esverdeado);
-  border-radius: 16px;
   background: rgba( 200, 144, 255, 0.2 );
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
   backdrop-filter: blur( 2px );
@@ -34,18 +35,27 @@ h2 {
   justify-content: center;
   gap: 30px;
    
-  
+  .card-info {
+    flex-grow: 1;
+  }
 
   h5{
-    font-size: 18px;
+    font-family: Kusanagi;
+    font-size: 20px;
     text-align: center;
     text-transform: uppercase;
     padding: 12px;
+    word-spacing: 10px;
+    letter-spacing: 4px;
    }
 
    p {
+    font-family: 'Helvetica-Bold', sans-serif;
     font-size: 14px;
-  text-align:justify;
+    font-weight: 600;
+    text-align:center;
+    display: flex;
+    justify-content: center;
   }
 
   .card-projeto {
@@ -59,7 +69,8 @@ h2 {
     overflow: hidden;
     background: rgb(144, 143, 143);
     padding: 8px;
-    width: 250px;
+    width: 270px;
+    height: 330px;
     background: rgba( 144, 19, 254, 0.2 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 3px );

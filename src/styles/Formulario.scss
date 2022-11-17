@@ -25,6 +25,13 @@
       width: 100%;
     }
 
+    h2 {
+      word-spacing: 30px;
+      font-size: 16px;
+      font-family: Kusanagi;
+      color:var( --cinza-esverdeado);
+    }
+
     form {
       display: flex;
       flex-direction: column;

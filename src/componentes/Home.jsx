@@ -6,7 +6,7 @@ import github from "../imgs/github.png";
 import curriculo from "../imgs/curriculo.png";
 import { useEffect, useState } from "react";
 
-const text = 'Front-End Developer'
+const text = 'Desenvolvedor Front-End'
 const text2 = 'Muito Prazer...'
 
  export default function Home() {
@@ -56,7 +56,7 @@ const text2 = 'Muito Prazer...'
         
       </h5>
       <h2  className="nome">
-        Olá, EU SOU Domingos Alexandre 
+        olá, eu sou Domingos Alexandre 
       </h2>
       <h3 id="profissao">
       {textToType} <span>|</span>

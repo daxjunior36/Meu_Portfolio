@@ -5,13 +5,13 @@ align-items: center;
 gap: 20px;
 
 h2 {
+  font-family: Kusanagi;
   align-self: flex-start;
   color: var(--cinza-esverdeado);
-  align-self: flex-start;
+  align-self:center;
   margin-bottom: 30px;
-  width: 110px;
+  width: 150px;
   padding: 12px;
-  border-radius: 16px;
   background: rgba( 200, 144, 255, 0.2 );
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
   backdrop-filter: blur( 2px );
