@@ -32,7 +32,7 @@ export default function Formulario() {
       <div className='form-img'>
         <img src={formImg} alt="imagem-do-formulario" />
         <form onSubmit={sendEmail}>
-          <h2> Entre em Contato</h2>
+          <h2> ENTRE EM CONTATO</h2>
           <input onChange={handleChange} value={form['user_name']} type="text" name="user_name" placeholder='Nome'/>
          
           <input onChange={handleChange} value={form['user_email']} type="email" name="user_email" placeholder='E-mail'/>

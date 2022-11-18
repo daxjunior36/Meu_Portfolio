@@ -6,8 +6,8 @@ import github from "../imgs/github.png";
 import curriculo from "../imgs/curriculo.png";
 import { useEffect, useState } from "react";
 
-const text = 'Desenvolvedor Front-End'
-const text2 = 'Muito Prazer...'
+const text = 'DESENVOLVEDOR FRONT-END'
+const text2 = 'MUITO PRAZER...'
 
  export default function Home() {
   const [textToType, setToType] = useState('');
@@ -67,15 +67,15 @@ const text2 = 'Muito Prazer...'
       <div className="links">
       <a href="https://www.linkedin.com/in/domingos-alexandre-s-jr/">
         <img src={linkedin} alt="linkdin" />
-        <span>LinkedIn</span>
+        <span>LINKEDIN</span>
       </a>
       <a href="https://github.com/daxjunior36">
         <img src={github} alt="github" />
-        <span>GitHub</span> 
+        <span>GITHUB</span> 
       </a>
       <a href="https://drive.google.com/file/d/1L4WQlSRNQmUdX-iY5QKkZW2X1rmWxHIt/view?usp=share_link">
         <img className="curriculo" src={curriculo} alt="curriculo" />
-        <span>Currículo</span> 
+        <span>CURRÍCULO</span> 
       </a>
       </div>
       </div>

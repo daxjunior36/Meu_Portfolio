@@ -16,19 +16,19 @@ import "../styles/Header.scss";
      </div>
       <nav className="navbar">
         <a href="#home">
-          Home
+          HOME
         </a>
         <a href="#sobre">
-          Sobre
+          SOBRE
         </a>
         <a href="#projetos">
-          Projetos
+          PROJETOS
         </a>
         <a href="#skills">
-          Skills
+          SKILLS
         </a>
         <a href="#form_section">
-          Contato
+          CONTATO
         </a>
       </nav>
       {/* <div/> */}

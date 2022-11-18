@@ -24,20 +24,20 @@ width: 50%;
   .nome {
   background-image: linear-gradient(-225deg, #FF057C 0%, #7C64D5 48%, #4CC3FF 100%);
   font-family: Kusanagi;
-  font-size: 32px;
+  font-size: 30px;
   gap:16px;
   text-transform: uppercase;  
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  word-spacing: 12px;
-  letter-spacing: 1px;
+  word-spacing: 10px;
+  letter-spacing: 2.5px;
   }
 
   #profissao {
     font-family: Kusanagi;
     font-size: 23.5px;
     word-spacing: 15px;
-    letter-spacing: 1px;
+    letter-spacing: 1.6px;
     span {
       animation: pipe 1.3s infinite alternate;
     }
