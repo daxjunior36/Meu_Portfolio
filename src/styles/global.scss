@@ -46,14 +46,18 @@ body {
   font-family: Helvetica-Bold, sans-serif;
   background: var(--preto);
   color: var(--cinza-esverdeado);
+    
 }
 
 main {
-  padding: 20px 60px;
+  padding: 20px 20px;
   display: flex;
   flex-direction: column;
   gap: 200px;
+  width: 90vw;
+  margin: auto;  
 }
+
 
 .background {
   position: fixed;

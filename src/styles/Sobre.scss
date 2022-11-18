@@ -1,14 +1,16 @@
 #sobre {
   display: flex;
   text-align: justify;
+  justify-content: center;
   align-items: center;
   gap: 20px;
+  
   
  
 
   .content {
     position: relative;
-   
+    
     
     .backgroundFoto {
       background-image: url("../imgs/planeta.png");
