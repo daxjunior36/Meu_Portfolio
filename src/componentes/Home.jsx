@@ -73,7 +73,7 @@ const text2 = 'MUITO PRAZER...'
         <img src={github} alt="github" />
         <span>GITHUB</span> 
       </a>
-      <a target='_blank' href="https://www.canva.com/design/DAFPD5eVpSw/RlotwRhUPUhTbbvYCfTA-A/edit?utm_content=DAFPD5eVpSw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" rel="noreferrer">
+      <a target='_blank' href="https://drive.google.com/file/d/1PhCOTofn-HzeKbHbSK3aLDMC3tkUxnr3/view" rel="noreferrer">
         <img className="curriculo" src={curriculo} alt="curriculo" />
         <span>CURRÍCULO</span> 
       </a>
