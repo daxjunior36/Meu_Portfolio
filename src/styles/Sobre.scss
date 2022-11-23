@@ -41,15 +41,20 @@
       display: flex;
       justify-content: center;     
     }
-      font-family: Helvetica, sans-serif;
-      justify-content: center;
-      line-height: 24px; 
-      width: 550px;
+      font-family: Kusanagi, Helvetica, sans-serif;
+      justify-content:center;
+      text-transform: uppercase;
+      font-size: 12px;
+      word-spacing: 1px;
+      letter-spacing: 1.5px;
+      line-height: 30px; 
+      text-align: justify;
+      width: 700px;
       padding: 40px 60px 40px 70px;
       border-radius: 16px;
-      background: rgba( 200, 144, 255, 0.2 );
+      background: rgba(77, 13, 141, 0.2);
       box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-      backdrop-filter: blur( 2px );
+      backdrop-filter: blur( 4px );
       -webkit-backdrop-filter: blur( 2px );
       border-radius: 10px;
       border: 1px solid rgba( 255, 255, 255, 0.18 );     

@@ -65,15 +65,15 @@ const text2 = 'MUITO PRAZER...'
       
       </p>
       <div className="links">
-      <a href="https://www.linkedin.com/in/domingos-alexandre-s-jr/">
+      <a target='_blank' href="https://www.linkedin.com/in/domingos-alexandre-s-jr/" rel="noreferrer">
         <img src={linkedin} alt="linkdin" />
         <span>LINKEDIN</span>
       </a>
-      <a href="https://github.com/daxjunior36">
+      <a target='_blank' href="https://github.com/daxjunior36" rel="noreferrer">
         <img src={github} alt="github" />
         <span>GITHUB</span> 
       </a>
-      <a href="https://drive.google.com/file/d/1L4WQlSRNQmUdX-iY5QKkZW2X1rmWxHIt/view?usp=share_link">
+      <a target='_blank' href="https://drive.google.com/file/d/1L4WQlSRNQmUdX-iY5QKkZW2X1rmWxHIt/view?usp=share_link" rel="noreferrer">
         <img className="curriculo" src={curriculo} alt="curriculo" />
         <span>CURRÍCULO</span> 
       </a>
