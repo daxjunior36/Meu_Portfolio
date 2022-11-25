@@ -41,8 +41,11 @@
       max-width: 300px;
 
       input, textarea {
+        font-size: 10px;
+        font-family:  Kusanagi, Helvetica, sans-serif;
         width: 100%;
         padding: 12px;
+        text-align: center;
         color: var(--branco);
         border-radius: 16px;
         background: rgba( 200, 144, 255, 0.2 );
@@ -51,19 +54,28 @@
         -webkit-backdrop-filter: blur( 2px );
         border-radius: 10px;
         border: 1px solid rgba( 255, 255, 255, 0.18 );
+        word-spacing: 15px;
+        letter-spacing: 1.6px;
+        text-transform: uppercase;
 
         &::placeholder {
           color:var(--branco);
         }
       }
 
-      button {
-        border-radius: 12px;
+      button {                   
+        border-radius: 10px;
+        font-size: 10px;
+        font-family:  Kusanagi, Helvetica, sans-serif;
+        text-decoration: none;
+        text-align: center;
         border: none;
-        padding: 6px;
-        width: 100px;
+        padding: 8px 12px;
+        width: 80px;
         align-self: center;
         background-color: var(--azul-cometa);
+        color: var(--roxo);
+        text-transform: uppercase;
       }
     }
   }
