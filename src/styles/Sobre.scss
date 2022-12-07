@@ -60,3 +60,38 @@
       border: 1px solid rgba( 255, 255, 255, 0.18 );     
   }
 }
+
+@media screen and (max-width: 700px) {
+  #sobre {
+  
+    
+   
+  
+    .content {
+    
+      
+      
+      .backgroundFoto {
+    
+        
+      }
+    
+      .Foto {
+      
+        width: 150px;
+        height: 150px;
+      }
+  
+    }
+    .texto-sobre {
+      padding: 20px;
+      
+      h2 {
+        font-size: 14px;
+    }
+    p {
+      font-size: 8px;
+    }
+  }
+  }
+}

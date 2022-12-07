@@ -79,5 +79,45 @@
       }
     }
   }
-  
 }
+
+
+@media only screen and (max-width: 700px) {
+  #form_section {
+  
+  
+  
+    .form-img {
+
+
+    
+  
+      img {
+      display: none;
+      }
+  
+      h2 {
+        text-align: center;
+        font-size: 12px;
+      }
+  
+      form {
+        
+        padding: 10px;
+        
+        input, textarea {
+      
+        width: 180px;
+  
+          &::placeholder {
+          
+          }
+        }
+  
+        button {                   
+  
+        }
+      }
+    }
+  }
+  }
