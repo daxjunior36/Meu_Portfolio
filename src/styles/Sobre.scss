@@ -41,14 +41,15 @@
       display: flex;
       justify-content: center;     
     }
-      font-family: Kusanagi, Helvetica, sans-serif;
+      font-family: Roboto, Helvetica, sans-serif;
       justify-content:center;
-      text-transform: uppercase;
-      font-size: 12px;
+      // text-transform: uppercase;
+      font-size: 16px;
+      font-weight: 600;
       word-spacing: 1px;
       letter-spacing: 2px;
       line-height: 30px; 
-      text-align:left;
+      text-align:justify;
       width: 700px;
       padding: 40px 60px 40px 70px;
       border-radius: 16px;
